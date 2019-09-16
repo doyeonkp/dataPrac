@@ -34,5 +34,5 @@ Anaconda
    <code>pip install jupyter</code>
    
 
-run notebook
+5. run notebook
     <code>jupyter notebook</code>
