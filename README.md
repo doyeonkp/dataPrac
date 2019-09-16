@@ -31,8 +31,7 @@ Anaconda
         <code>conda install -c conda-forge tensorflow keras</code>
 </pre>
 4. install jupyter
-    <code>pip install jupyter</code>  
-
+   <code>pip install jupyter</code>
 
 5. run notebook
     <code>jupyter notebook</code>
