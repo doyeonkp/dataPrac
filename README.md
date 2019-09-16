@@ -8,9 +8,9 @@ Anaconda
 1. Download Anaconda from https://www.anaconda.com/distribution/
 2. Run Anaconda Powershell Prompt with 'Run as administrator'
 3. In the Anaconda shell,  
-    ////a. check Anaconda's version  
-        //////<code>conda --version</code>
-    ////b. if it needs any update
+    //// a. check Anaconda's version  
+        ////// <code>conda --version</code>
+    //// b. if it needs any update
         //////<code>conda update conda</code>
     c. make a virtual environment for your project
         <code>conda create --name project's_name installation_package_name</code>
