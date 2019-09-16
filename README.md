@@ -32,6 +32,7 @@ Anaconda
 </pre>
 4. install jupyter
     <code>pip install jupyter</code>  
-#
+
+
 5. run notebook
     <code>jupyter notebook</code>
