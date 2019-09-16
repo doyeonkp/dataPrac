@@ -8,10 +8,10 @@ Anaconda
 1. Download Anaconda from https://www.anaconda.com/distribution/
 2. Run Anaconda Powershell Prompt with 'Run as administrator'
 3. In the Anaconda shell,  
-    //// a. check Anaconda's version  
-        ////// <code>conda --version</code>
-    //// b. if it needs any update
-        //////<code>conda update conda</code>
+   <pre> a. check Anaconda's version  
+        <code>conda --version</code>
+    b. if it needs any update
+        <code>conda update conda</code>
     c. make a virtual environment for your project
         <code>conda create --name project's_name installation_package_name</code>
         or
@@ -29,6 +29,7 @@ Anaconda
         ex) <code>conda install pandas matplotlib scipy scikit-learn nltk</code>
     h. tensorflow and keras package install
         <code>conda install -c conda-forge tensorflow keras</code>
+</pre>
 4. install jupyter
     <code>pip install jupyter</code>
 5. run notebook
