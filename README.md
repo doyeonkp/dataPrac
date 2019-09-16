@@ -34,8 +34,5 @@ Anaconda
    <code>pip install jupyter</code>
    
 
-ㄴㄻㄻㄴㄹ
-
-
-5. run notebook
+run notebook
     <code>jupyter notebook</code>
