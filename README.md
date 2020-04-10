@@ -47,9 +47,23 @@ Anaconda
         => <code>pip install git+https://github.com/mwaskom/seaborn.git</code>
 
 </pre>
+
 4. install jupyter
    <code>pip install jupyter</code>
    
    
 5. run notebook
     <code>jupyter notebook</code>
+
+tip:
+1. make jupyter notebook open on Chrome as default
+   a. <code>jupyter notebook --generate-config</code>
+   b. if it asked about overide -> may be No but you can see the directory where is the config file is existed
+   c. in config file(ipython_notebook_config.py)
+   d. edit this part <code>c.NotebookApp.browser = 'open -a /Applications/Google\ Chrome.app %s'</code>
+
+2. change default directory
+   a. <code>jupyter notebook --generate-config</code>
+   b. if it asked about overide -> may be No but you can see the directory where is the config file is existed
+   c. in config file(ipython_notebook_config.py)
+   d. edit this part <code>c.NotebookApp.notebook_dir = '/Users/dk/Documents/data_analysis'</code>
