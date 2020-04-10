@@ -54,7 +54,8 @@ Anaconda
    
 5. run notebook
     <code>jupyter notebook</code>
-
+   
+   
 tip:
 1. make jupyter notebook open on Chrome as default   
    a. <code>jupyter notebook --generate-config</code>   
