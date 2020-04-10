@@ -29,6 +29,23 @@ Anaconda
         ex) <code>conda install pandas matplotlib scipy scikit-learn nltk</code>
     h. tensorflow and keras package install
         <code>conda install -c conda-forge tensorflow keras</code>
+    i. MatplotLib
+        mac precondition: <code>brew install pkg-config</code>
+        <code>pip install matplotlib</code>
+        <code>pip install git+git://github.com/matplotlib/matplotlib.git</code>
+        TIP! if this kind of error show up:
+        <code>Matplotlib is building the font cache using fc-list.This may take a moment.</code>
+        => <code>rm -rf ~/.cache/fontconfig</code>
+        => then try it but still not work
+        => <code>import matplotlib as mpl
+           print (mpl.get_cachedir ())</code>
+        => <code>rm -rf path</code>
+            => path is where 'print (mpl.get_cachedir ())'
+    j. seaborn
+        => <code>pip install seaborn</code>
+        => <code>conda install seaborn</code>
+        => <code>pip install git+https://github.com/mwaskom/seaborn.git</code>
+
 </pre>
 4. install jupyter
    <code>pip install jupyter</code>
