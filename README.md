@@ -67,4 +67,7 @@ tip:
    a. <code>jupyter notebook --generate-config</code>   
    b. if it asked about overide -> may be No but you can see the directory where is the config file is existed    
    c. in config file(ipython_notebook_config.py)   
-   d. edit this part <code>c.NotebookApp.notebook_dir = '/Users/dk/Documents/data_analysis'</code>   
+   d. edit this part <code>c.NotebookApp.notebook_dir = '/Users/dk/Documents/data_analysis'</code>
+ 
+3. Disable auto-activate anaconda
+   a. conda config --set auto_activate_base false
