@@ -70,4 +70,4 @@ tip:
    d. edit this part <code>c.NotebookApp.notebook_dir = '/Users/dk/Documents/data_analysis'</code>
  
 3. Disable auto-activate anaconda
-   a. conda config --set auto_activate_base false
+   a. <code>conda config --set auto_activate_base false</code>
