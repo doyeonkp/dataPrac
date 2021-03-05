@@ -69,7 +69,7 @@ tip:
    c. in config file(ipython_notebook_config.py)   
    d. edit this part <code>c.NotebookApp.notebook_dir = '/Users/dk/Documents/data_analysis'</code>
  
-3. Disable auto-activate anaconda
+3. Disable auto-activate anaconda<br/>
    a. <code>conda config --set auto_activate_base false</code>
    
       
