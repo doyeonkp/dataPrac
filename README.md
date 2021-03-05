@@ -71,3 +71,6 @@ tip:
  
 3. Disable auto-activate anaconda
    a. <code>conda config --set auto_activate_base false</code>
+   
+      
+   
